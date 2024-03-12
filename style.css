@@ -18,3 +18,7 @@
     align-items: center;
     background-color: rgba(220,103,255,0.31)
 }
+.task2-style {
+    text-align: center;
+    line-height: 30px;
+}
