@@ -22,3 +22,19 @@
     text-align: center;
     line-height: 30px;
 }
+ul.fruits {
+    list-style: none;
+    margin-left: -14px;
+}
+
+ul.fruits li:before {
+    content: "• ";
+    color: black;
+}
+li{
+    margin-left: 35px;
+}
+.task3-body-style{
+    display: flex;
+    gap: 36px;
+}
