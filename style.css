@@ -1,10 +1,11 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.text-container{
-    background-color: rgba(213,113,255,0.27);
+
+.text-container {
+    background-color: rgba(213, 113, 255, 0.27);
     border: 2px solid #d837ff;
     border-radius: 2%;
     width: 47%;
@@ -15,17 +16,20 @@
     justify-content: center;
     align-items: center;
 }
-.block-container{
+
+.block-container {
     display: flex;
     height: 100vh;
     justify-content: center;
     align-items: center;
-    background-color: rgba(220,103,255,0.31)
+    background-color: rgba(220, 103, 255, 0.31)
 }
+
 .task2-style {
     text-align: center;
     line-height: 30px;
 }
+
 ul.fruits {
     list-style: none;
     margin-left: -14px;
@@ -35,10 +39,37 @@ ul.fruits li:before {
     content: "• ";
     color: black;
 }
-li{
+
+li {
     margin-left: 35px;
 }
-.task3-body-style{
+
+.task3-body-style {
     display: flex;
     gap: 36px;
+}
+
+.task4-block-container {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.task4-text-container {
+    border: 2px solid blue;
+    border-radius: 2%;
+    width: 40%;
+    height: 80%;
+    display: flex;
+    font-size: 90%;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.task4-hr-style {
+    border: 0.5px solid blue;
+    width: 200px;
 }
